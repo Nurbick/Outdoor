@@ -1,0 +1,25 @@
+.start{
+    background: url(../pages/assets/images/background.png) center/cover no-repeat;
+    padding: 45px 111px 422px 50%;
+    &__content{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        row-gap: 35px;
+    }
+    &__title{
+        font-size: 66px;
+        line-height: 80px;
+        letter-spacing: 3.2px;
+        color: $white;
+
+    }
+    &__desc{
+        font-size: 24px;
+        letter-spacing: 0.3px;
+        line-height: 30.96px;
+        color: $white;
+    }
+    
+}

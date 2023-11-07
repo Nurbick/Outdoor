@@ -1,0 +1,47 @@
+.trail{
+    margin-bottom: 84px;
+    &__right{
+        width: 50%;
+        padding-left: 47px;
+    }
+    &__content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__title{
+        font-family: Roboto;
+font-size: 65px;
+font-weight: 400;
+line-height: 80px;
+letter-spacing: 3.200000047683716px;
+text-align: left;
+
+    }
+    &__text{
+        font-family: Roboto;
+font-size: 22px;
+font-weight: 400;
+line-height: 31px;
+letter-spacing: 0.30000001192092896px;
+text-align: left;
+
+    }
+    &__button{
+        font-family: Roboto;
+font-size: 15px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: center;
+color: $white;
+background: $black;
+    }
+    &__right{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        row-gap: 35px;
+    }
+}

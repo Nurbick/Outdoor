@@ -1,0 +1,61 @@
+.arrivals{
+    padding: 84px 140px;
+    &__content{
+        display: flex;
+        flex-direction: column;
+        row-gap: 18px;
+    }
+    &__top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__title{
+        font-family: Roboto;
+font-size: 60px;
+font-weight: 400;
+line-height: 114px;
+letter-spacing: 3.4000000953674316px;
+text-align: left;
+
+    }
+    &__button{
+        background-color: $black;
+        font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: center;
+color:  #ffffff;
+    }
+    &__slider{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &-title{
+            font-family: Roboto;
+font-size: 22px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+
+        }
+        &-desc{
+            font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+
+        }
+        &-slide{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            row-gap: 10px;
+        }
+    }
+}
