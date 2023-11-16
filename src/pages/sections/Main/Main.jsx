@@ -3,6 +3,7 @@ import Start from '../Start/Start'
 import Arrivals from '../Arrivals/Arrivals'
 import ZipOff from '../ZipOff/ZipOff'
 import Trail from '../Trail/Trail'
+import GetOutside from '../GetOutside/GetOutside'
 
 
 const Main = () => {
@@ -12,6 +13,8 @@ const Main = () => {
             <Arrivals/>
             <ZipOff/>
             <Trail/>
+            <GetOutside/>
+            werty
         </main>
     )
 }

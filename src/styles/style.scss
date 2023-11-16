@@ -10,9 +10,13 @@
 }
 
 
+
+// Color values
 $white: #ffffff;
 $black: #202020;
 
+
+// Usual button styles
 
 button{
     background: $white;
@@ -52,8 +56,9 @@ button{
 
 
 
-@import "header";
-@import "start";
-@import "arrivals";
-@import "zipOff";
-@import "trail";
+@import "header"; // Header
+@import "start";  // Start
+@import "arrivals"; // Arrivals
+@import "zipOff";  // ZipOff
+@import "trail";  // Trail
+@import "getOutside";   // GetOutside
