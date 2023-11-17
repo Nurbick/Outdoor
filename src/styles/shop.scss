@@ -1,0 +1,16 @@
+.shop{
+    margin-bottom: 84px;
+    &__content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    &__part{
+        width: 50%;
+        cursor: pointer;
+    }
+    &__img{
+        width: 100%;
+    }
+}

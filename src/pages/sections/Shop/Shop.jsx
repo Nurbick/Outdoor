@@ -11,13 +11,13 @@ const Shop = () => {
 
                     {/* Left side  */}
                     <div className="shop__left shop__part">
-                        <img src={menShop} alt="" className="shop__img" />
+                        <img src={womenShop} alt="" className="shop__img" />
                     </div>
 
 
                     {/* Right side */}
                     <div className="shop__right shop__part">
-                        <img src={womenShop} alt="" className="shop__img" />
+                        <img src={menShop} alt="" className="shop__img" />
                     </div>
                 </div>
             </div>
