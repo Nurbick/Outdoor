@@ -5,6 +5,7 @@ import ZipOff from '../ZipOff/ZipOff'
 import Trail from '../Trail/Trail'
 import GetOutside from '../GetOutside/GetOutside'
 import Shop from '../Shop/Shop'
+import Story from '../Story/Story'
 
 
 const Main = () => {
@@ -16,6 +17,7 @@ const Main = () => {
             <Trail/>
             <GetOutside/>
             <Shop/>
+            <Story/>
         </main>
     )
 }

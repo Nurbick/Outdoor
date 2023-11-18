@@ -1,0 +1,53 @@
+.story{
+    margin-bottom: 84px;
+    padding: 0 108px 8px 108px;
+    &__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    &__text{
+        font-family: Roboto;
+font-size: 71px;
+font-weight: 400;
+line-height: 88px;
+letter-spacing: 3.5px;
+text-align: left;
+
+    }
+    &__desc{
+        font-family: Roboto;
+font-size: 64px;
+font-weight: 700;
+line-height: 88px;
+letter-spacing: 3.5px;
+text-align: left;
+margin: 1px 0 28px;
+
+    }
+    &__link{
+        font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+color: $black;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+column-gap: 15px;
+        span{
+            transition: .5s;
+            &:hover{
+                transition: .5s;
+                transform: scale(1.3);
+            }
+        }
+    }
+
+
+
+    
+}
