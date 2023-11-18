@@ -1,5 +1,7 @@
 import React from 'react'
 import Slider from './Swiper/Swiper'
+import swiperLeft from '../../assets/images/Swiper/swiperRight.png'
+import swiperRight from '../../assets/images/Swiper/swiperLeft.png'
 
 
 const Arrivals = () => {
@@ -13,7 +15,7 @@ const Arrivals = () => {
                         </h2>
                         <button className="arrivals__button">Shop — New Arrivals</button>
                     </div>
-                    <Slider/>
+                    <Slider images={[swiperLeft, swiperRight, swiperRight, swiperLeft, swiperLeft, swiperRight]}/>
                 </div>
             </div>
         </section>
